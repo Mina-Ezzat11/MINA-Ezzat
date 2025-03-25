@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>قائمة الكتب</title>
+    <title>كتاب أحببت وغدًا</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -15,76 +15,39 @@
             text-align: center;
             color: #333;
         }
-        .book-list {
+        .book-container {
             display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            justify-content: center;
-        }
-        .book {
+            flex-direction: column;
+            align-items: center;
             background-color: #fff;
-            border: 1px solid #ddd;
-            border-radius: 8px;
             padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: auto;
+        }
+        .book-container img {
             width: 200px;
-            text-align: center;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-        .book img {
-            width: 100%;
             height: auto;
-            border-radius: 4px;
+            border-radius: 8px;
+            margin-bottom: 20px;
         }
-        .book h3 {
+        .book-container h2 {
             color: #555;
-            margin: 10px 0;
         }
-        .book p {
+        .book-container p {
             color: #777;
+            text-align: center;
         }
-        .book a {
-            display: inline-block;
-            margin-top: 10px;
-            padding: 8px 15px;
+        .book-container a {
+            padding: 10px 20px;
             background-color: #4CAF50;
-            color: #fff;
+            color: white;
             text-decoration: none;
-            border-radius: 4px;
+            border-radius: 5px;
+            margin-top: 20px;
+            font-weight: bold;
         }
-        .book a:hover {
+        .book-container a:hover {
             background-color: #45a049;
         }
-    </style>
-</head>
-<body>
-
-    <h1>قائمة الكتب</h1>
-
-    <div class="book-list">
-        <!-- كتاب 1 -->
-        <div class="book">
-            <img src="https://via.placeholder.com/150" alt="كتاب 1">
-            <h3>عنوان الكتاب الأول</h3>
-            <p>وصف مختصر للكتاب الأول.</p>
-            <a href="https://github.com" target="_blank">مزيد من التفاصيل</a>
-        </div>
-
-        <!-- كتاب 2 -->
-        <div class="book">
-            <img src="https://via.placeholder.com/150" alt="كتاب 2">
-            <h3>عنوان الكتاب الثاني</h3>
-            <p>وصف مختصر للكتاب الثاني.</p>
-            <a href="https://github.com" target="_blank">مزيد من التفاصيل</a>
-        </div>
-
-        <!-- كتاب 3 -->
-        <div class="book">
-            <img src="https://via.placeholder.com/150" alt="كتاب 3">
-            <h3>عنوان الكتاب الثالث</h3>
-            <p>وصف مختصر للكتاب الثالث.</p>
-            <a href="https://github.com" target="_blank">مزيد من التفاصيل</a>
-        </div>
-    </div>
-
-</body>
-</html>
