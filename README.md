@@ -60,7 +60,7 @@
 
     <h1>معلومات عن هرم خوفو</h1>
 
-    <div class="pyramid-container">
+    <div Style= "background-color:yellow;">
         <!-- صورة هرم خوفو -->
         <img src="https://via.placeholder.com/600x400?text=هرم+خوفو" alt="هرم خوفو">
 
